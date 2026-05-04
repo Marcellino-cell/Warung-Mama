@@ -402,3 +402,129 @@ footer{
 .minuman-title{
   margin-top:80px;
 }
+
+/* =========================
+   RESPONSIVE MOBILE
+========================= */
+
+@media (max-width: 768px){
+
+  body{
+    overflow-x:hidden;
+  }
+
+  /* HEADER */
+  .header{
+    padding:15px;
+  }
+
+  .logo h1{
+    font-size:26px;
+  }
+
+  .logo span{
+    font-size:12px;
+  }
+
+  /* HERO */
+  .hero{
+    min-height:100vh;
+    padding:30px 20px;
+    background-position:center;
+    background-size:cover;
+  }
+
+  .hero-content{
+    width:100%;
+  }
+
+  .hero-content h2{
+    font-size:42px;
+    line-height:1.2;
+    margin-bottom:15px;
+  }
+
+  .hero-content p{
+    font-size:15px;
+    line-height:1.7;
+  }
+
+  .hero-buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    margin-top:25px;
+  }
+
+  .btn{
+    width:220px;
+    text-align:center;
+  }
+
+  /* MENU */
+  .menu-section{
+    padding:60px 15px;
+  }
+
+  .menu-title h3{
+    font-size:26px;
+  }
+
+  .menu-container{
+    grid-template-columns:1fr;
+    gap:25px;
+  }
+
+  .card{
+    width:100%;
+  }
+
+  .card img{
+    height:220px;
+    object-fit:cover;
+  }
+
+  .card-content{
+    padding:18px;
+  }
+
+  .card-content h3{
+    font-size:22px;
+  }
+
+  .card-content p{
+    font-size:14px;
+  }
+
+  /* TESTIMONI */
+  .testi-container{
+    grid-template-columns:1fr;
+  }
+
+  /* FORM */
+  form{
+    width:100%;
+  }
+
+  input,
+  textarea{
+    font-size:15px;
+  }
+
+  /* FOOTER */
+  footer{
+    font-size:14px;
+    padding:20px;
+  }
+
+  /* TOP BUTTON */
+  #topBtn{
+    width:45px;
+    height:45px;
+    font-size:18px;
+    right:15px;
+    bottom:15px;
+  }
+
+}
